@@ -1,12 +1,13 @@
 import React from "react";
-import Shristi from "./Shristi";
+// import Shristi from "./Shristi";
+import User from "./CRUD/User";
 
 function App() {
   return (
     <div>
-      <h2>Hello World</h2>
       {/* <Shristi /> */}
-      <Shristi />
+      {/* <Shristi /> */}
+      <User />
     </div>
   );
 }
